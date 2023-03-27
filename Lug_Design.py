@@ -26,7 +26,7 @@ def user_input_features():
     dh =st.sidebar.number_input('Diameter of Hole of Lug( mm )')
     lf =st.sidebar.number_input('Length of Weld Leg( mm )')
     E= st.sidebar.number_input('Weld Efficiency')
-    W =st.sidebar.number_input('Weight on a Dishend')
+    W =st.sidebar.number_input('Weight on a Dishend ( Kg )')
     IP =st.sidebar.number_input('Impact factor')
     if st.sidebar.button("Calcuate"):
         Sb= 0.66*Ys
