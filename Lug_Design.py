@@ -41,7 +41,7 @@ def user_input_features():
         I=(t*pow(Lb,3))/12
         Z=I/(Lb/2)
         BendingS=M/Z
-        Aw= 2*(Lb*t)*lf*0.707*E
+        Aw= 2*(Lb+t)*lf*0.707*E
         WeldingS=WI/Aw
 
         def ShearStress():
