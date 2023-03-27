@@ -63,7 +63,7 @@ def user_input_features():
                 return " Bending Stress Not Safe, Check again"
 
         def WeldingStress():
-            if WeldingS > Ss:
+            if WeldingS < Ss:
                 return "Welding Stress Safe"
             else:
                 return " Welding Stress Not Safe, Check again"
