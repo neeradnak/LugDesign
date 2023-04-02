@@ -10,7 +10,7 @@ col1.header("""Lifting Lug Design""")
 col1.write('---')
 image = Image.open('L&T.png')
 
-col2.image(image)
+col1.image(image)
 
 st.sidebar.header("Input Data")
 
