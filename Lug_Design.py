@@ -9,8 +9,10 @@ col1,col2 = st.columns((2,1))
 col1.header("""Lifting Lug Design""")
 col1.write('---')
 image = Image.open('L&T.png')
+image2=Image.open("lug dig.png")
 
 col1.image(image)
+col2,image(image2)
 
 st.sidebar.header("Input Data")
 
