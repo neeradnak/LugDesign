@@ -11,7 +11,7 @@ col1.write('---')
 image = Image.open('L&T.png')
 image2=Image.open("lug dig.png")
 
-col1.image(image)
+#col1.image(image)
 col2.image(image2)
 
 st.sidebar.header("Input Data")
