@@ -8,6 +8,15 @@ st.set_page_config(page_title="Lifting Lug Design",layout="wide", page_icon=imag
 col1,col2 = st.columns((2,1))
 col1.header("""Lifting Lug Design""")
 col1.write('---')
+hide_menu_style="""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer { visibility : hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style,unsafe_allow_html=True)
+
+
 
 image2=Image.open("lug dig.png")
 
