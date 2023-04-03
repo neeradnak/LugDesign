@@ -1,14 +1,14 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-
+image = Image.open('L&T.png')
 from PIL import Image
-st.set_page_config(page_title="Lifting Lug Design",layout="wide")
+st.set_page_config(page_title="Lifting Lug Design",layout="wide", page_icon=image)
 
 col1,col2 = st.columns((2,1))
 col1.header("""Lifting Lug Design""")
 col1.write('---')
-image = Image.open('L&T.png')
+
 image2=Image.open("lug dig.png")
 
 #col1.image(image)
